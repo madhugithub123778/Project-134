@@ -1,0 +1,68 @@
+
+#heading
+{
+font-size: 30px;
+width: 100%;
+margin: 0px;
+padding: 20px;
+background-image: linear-gradient(to top, plum, paleturquoise);
+color: white;
+height: 90px;
+font-family: 'Cochin';
+text-shadow: 4px 4px 4px rgb(153, 2, 145);
+box-shadow: 10px 10px 20px rgb(172, 147, 212);
+color: white;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body{
+background-position: center;background-size: cover;background-repeat: no-repeat;
+}
+
+canvas{
+margin-top: 120px;
+border: 5px ridge rebeccapurple;
+border-radius: 30px;
+box-shadow: 10px 10px 20px rgb(218, 89, 218);
+animation-name: ani;
+    animation-duration: 1.5s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;}
+
+@keyframes ani{
+        from {box-shadow: 5px 5px 30px rgb(204, 0, 255);}
+        
+        to {box-shadow: 3px 3px 30px aqua;}
+    }
+
+
+#status{
+font-family: 'Trebuchet MS';box-shadow: 8px 8px 16px navy;
+}
+
+#status_val{
+font-size: 20px;background-color: lightgreen;color: darkgreen;font-weight: bold;
+
+
+}
+
+#baby{
+    font-family: 'Trebuchet MS';box-shadow: 8px 8px 16px orangered;
+font-size: 18px;margin-left: 40px;
+
+
+}
+
+#baby_name{
+    font-size: 20px;background-color: black;color: orange;font-weight: bold;padding: 3px;
+
+
+
+}
+
+
+
